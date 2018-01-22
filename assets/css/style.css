@@ -1,0 +1,33 @@
+
+body {
+	background: url("../images/space.jpg");
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+.body{
+	margin: 0;
+	height: 100%;
+}
+.starWars {
+	height: 425px;
+	width: 1000px;
+}
+.header {
+	color: #efec26;
+	text-align: center;
+}
+p {
+	color: white;
+}
+
+input {
+	border: 2px solid #999;
+	font-family: Helvetica, sans-serif;
+	color: #000;
+	font-size: 20px;
+}
+
+#ratefeld {
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+}

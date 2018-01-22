@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hangman game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--<link rel="stylesheet" type="text/js" href="assets/javascript/game.js">-->
+	<script src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="body">
+<div class="container">
+	<div class"row">
+		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
+
+
+			<img src="assets/images/StarWars.png" class="starWars" class="img-responsive" alt="Star Wars">
+		</div>
+	</div>
+	<br>
+	<div class"row">
+		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
+				<h1 class="header">Hangman</h1>
+		</div>
+	</div>
+	<div class"row">
+		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
+				<p>Wins: <span id="wins"></span></p>
+				<p>Current Word</p>
+				<p id="spaces"></p>
+		</div>
+	</div>
+	<br>
+	<div class"row">
+		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
+			<form name="idk">
+				<input name="userGuess" type="text" size="5" maxlength="1">
+				
+				<input name="ratebutton" type="button" value="Guess" onClick="checker()">
+				
+				<p id="wrongLetters">Wrong Letters:</p>
+				<img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman">
+				<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+			</form>
+		</div>
+	</div>
+		
+</div>
+</body>
+</html>
+
+
