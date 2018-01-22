@@ -27,8 +27,7 @@ function printWord(){
 	}
 }
 
-//checks if the the guess matches one or more of the letters in the word
-	
+	//attempting to re-write the code
 	/*document.onkeyup = function(event) {
 	var guess = event.key;
 	guess = guess.toUpperCase();
@@ -41,6 +40,7 @@ function printWord(){
 	}
 }*/
 
+//checks if the guess matches one or more of the letters in the word
 
  var checker = function(){
 	var f = document.idk; 
@@ -92,6 +92,8 @@ function printWord(){
 function init(){
 	printWord();
 }
+var audio = new Audio('star-wars-theme-song.mp3');
+audio.play();
 
 window.onload = init;
 //undoes my win count don't know how to fix it

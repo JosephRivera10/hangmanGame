@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hangman game</title>
+	<link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!--<link rel="stylesheet" type="text/js" href="assets/javascript/game.js">-->
@@ -13,29 +15,34 @@
 <body class="body">
 <div class="container">
 	<div class"row">
-		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 
 
-			<img src="assets/images/StarWars.png" class="starWars" class="img-responsive" alt="Star Wars">
+			<img src="assets/images/Starwars-logo.png" class="starWars" class="img-responsive" alt="Star Wars">
 		</div>
 	</div>
 	<br>
 	<div class"row">
-		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 				<h1 class="header">Hangman</h1>
 		</div>
 	</div>
+	<audio autoplay hidden>
+     		<source src="assets/audio/star-wars-theme-song.mp3" type="audio/mpeg">
+                If you're reading this, audio isn't supported. 
+    </audio>
+	<br>
 	<div class"row">
-		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 				<p>Wins: <span id="wins"></span></p>
 				<p>Current Word</p>
 				<p id="spaces"></p>
 		</div>
 	</div>
 	<br>
-	<div class"row">
-		<div class="col-12 col-sm-12 col-md-12 col-ld-12">
-			<form name="idk">
+	<div class="row">
+		<div class="col-12 col-sm-12 col-md-6 col-lg-6" class="card">
+			<form name="idk" class="card-body">
 				<input name="userGuess" type="text" size="5" maxlength="1">
 				
 				<input name="ratebutton" type="button" value="Guess" onClick="checker()">
@@ -46,7 +53,14 @@
 			</form>
 		</div>
 	</div>
-		
+	<br>
+	<div class="row">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+			<span></span>
+		</div>
+	</div>
+
+	
 </div>
 </body>
 </html>

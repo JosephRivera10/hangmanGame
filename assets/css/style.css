@@ -1,33 +1,55 @@
 
 body {
-	background: url("../images/space.jpg");
+	background: url("../images/space.jpg")no-repeat center center fixed;
 	text-align: center;
 	font-family: Helvetica, sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .body{
 	margin: 0;
 	height: 100%;
 }
+
+/*@font-face {
+font-family: StarJediOutline;
+src: url("../font/Starjout.ttf");
+}*/
 .starWars {
 	height: 425px;
 	width: 1000px;
 }
 .header {
+	/*font-family: 'Supermercado One', cursive;*/
+	font-family: 'Poller One', cursive;
+
 	color: #efec26;
 	text-align: center;
+	font-size: 65px;
 }
 p {
+	font-family: 'Poller One', cursive;
 	color: white;
 }
 
 input {
+	background-color: #15616e;
 	border: 2px solid #999;
 	font-family: Helvetica, sans-serif;
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 }
 
 #ratefeld {
 	font-family: Helvetica, sans-serif;
 	font-size: 10px;
+}
+
+span {
+	height: 20px;
+}
+#hangman {
+	background-color: #15616e;
 }
